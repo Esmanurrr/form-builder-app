@@ -1,0 +1,27 @@
+{
+  "name": "form-builder-backend",
+  "version": "1.0.0",
+  "description": "Form Builder Backend API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "form",
+    "builder",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
